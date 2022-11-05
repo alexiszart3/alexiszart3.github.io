@@ -1,0 +1,124 @@
+.nav-enlace{
+   background-color: aqua;
+   color: black;
+   padding: 10px 30px;
+   display: inline-block;
+   text-decoration: none;
+   text-align: center;
+ }
+
+ .nav-enlace:hover{
+    color: antiquewhite;
+background-color: blue;
+
+ }
+ nav{
+   padding:10px ;
+   background-color: blueviolet;
+display: flex;
+justify-content: space-around;
+}
+
+.nav-boton{
+background-color: brown;
+color: yellow;
+padding: 10px 0px;
+ border: 2px solid orange;
+display: none;
+}
+
+.container{
+   font-family: 'Lato', sans-serif;
+margin: 0% auto;
+width: 90%;
+}
+
+.flex{
+
+   display: flex;
+   flex-wrap: wrap ;
+}
+
+.text{
+   text-align: center;
+}
+
+.columna{
+
+   background-color: white;
+   color: brown;
+   border: 1px solid #333;
+   margin: 0 auto;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px black;
+   width: 23%;
+   box-sizing: border-box;
+   
+}
+
+.precio{
+   font-size: 30px;
+   color: aqua;
+   
+}
+
+.btn-precio{
+   background-color: brown;
+   display: block;
+   padding: 10px;
+   color: antiquewhite;
+   text-decoration: none;
+   border-radius: 3px;
+   margin-bottom: 10px;
+}
+
+.btn-precio:hover{
+   background-color: sandybrown;
+}
+
+.tenis{
+   width: 250px;
+}
+
+@media (max-width: 600px) {
+   nav {
+background-color: black;
+flex-direction: column;
+margin: 10px;
+   }
+
+.nav-enlace{
+   margin: 5px 0px;
+}
+.nav-boton{
+   display: inline-block;
+}
+
+.desaparec{
+   display: none;
+
+
+}
+ 
+
+}
+
+@media (max-width: 1070px){
+   .columna{
+      width: 45%;
+      margin-bottom: 20px;
+
+   }
+
+   @media (max-width: 600px){
+
+      .columna{
+         width: 100%;
+         margin-bottom: 20px;
+   }
+  
+   
+
+}
+   }
